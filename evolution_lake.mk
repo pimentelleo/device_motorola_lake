@@ -16,7 +16,7 @@
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
@@ -66,7 +66,7 @@ TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
 
 # Device identifiers
 PRODUCT_DEVICE := lake
-PRODUCT_NAME := aosp_lake
+PRODUCT_NAME := evolution_lake
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto G7 Plus
 PRODUCT_MANUFACTURER := Motorola

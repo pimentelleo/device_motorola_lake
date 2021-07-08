@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lake.mk
+    $(LOCAL_DIR)/evolution_lake.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lake-eng \
-    aosp_lake-user \
-    aosp_lake-userdebug
+    evolution_lake-eng \
+    evolution_lake-user \
+    evolution_lake-userdebug
