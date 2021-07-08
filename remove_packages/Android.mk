@@ -1,0 +1,19 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := RemovePkgs
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_OVERRIDES_PACKAGES := AmbientSensePrebuilt AppDirectedSMSService
+LOCAL_OVERRIDES_PACKAGES += CarrierSetup ConnMO DCMO GoogleCamera
+LOCAL_OVERRIDES_PACKAGES += DMService Photos FilesPrebuilt
+LOCAL_OVERRIDES_PACKAGES += Maps MyVerizonServices
+LOCAL_OVERRIDES_PACKAGES += OBDM_Permissions Showcase
+LOCAL_OVERRIDES_PACKAGES += RecorderPrebuilt DocumentsUIGoogle
+LOCAL_OVERRIDES_PACKAGES += SprintDM SprintHM USCCDM
+LOCAL_OVERRIDES_PACKAGES += VZWAPNLib VzwOmaTrigger obdm_stub
+LOCAL_OVERRIDES_PACKAGES += MusicFX WallpapersBReel2020 MaestroPrebuilt
+LOCAL_UNINSTALLABLE_MODULE := true
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_SRC_FILES := /dev/null
+include $(BUILD_PREBUILT)
